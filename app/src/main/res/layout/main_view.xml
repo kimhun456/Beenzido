@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFFFFF"
+	android:orientation="vertical" >
+
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:gravity="center_vertical"
+		android:background="#034ea2">
+		<TextView
+			android:layout_width="200dip"
+			android:layout_height="30dip"
+			android:layout_marginLeft="20dip"
+			android:textColor="#FFFFFF"
+			android:textSize="30dip"
+			android:textStyle="bold"
+			android:text="전국"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/mainview_relativelayout"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="9"
+		android:gravity="center"
+		android:background="@drawable/korea">
+
+	</RelativeLayout>
+
+</LinearLayout>

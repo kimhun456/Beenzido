@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/HyunJae/Desktop/Beenzido1/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="korea_list_eng">
+        <item>seoul</item>
+        <item>gyeonggido</item>
+	    <item>gangwondo</item>
+	    <item>chungcheongbukdo</item>
+	    <item>chungcheongnamdo</item>
+	    <item>gyeongsangbukdo</item>
+	    <item>gyeongsangnamdo</item>
+	    <item>jeollabukdo</item>
+	    <item>jeollanamdo</item>
+	    <item>jejudo</item>
+	</string-array>
+    <string-array name="korea_list_kor">
+        <item>서울</item>
+        <item>경기</item>
+	    <item>강원</item>
+	    <item>경남</item>
+	    <item>경북</item>
+	    <item>전남</item>
+	    <item>전북</item>
+	    <item>제주</item>
+	    <item>충남</item>
+	    <item>충북</item>
+	</string-array>
+    <string-array name="seoul_list_eng">
+        <item>gangnam</item>
+        <item>gangdong</item>
+        <item>gangbuk</item>
+        <item>gangseo</item>
+        <item>gwanak</item>
+        <item>gwangjin</item>
+        <item>guro</item>
+        <item>gumcheon</item>
+        <item>nowon</item>
+        <item>dobong</item>
+        <item>dongdaemoon</item>
+        <item>dongjak</item>
+        <item>mapo</item>
+        <item>seodaemoon</item>
+        <item>sucho</item>
+        <item>sungdong</item>
+        <item>sungbuk</item>
+        <item>songpa</item>
+        <item>yangcheun</item>
+        <item>youngdeumpo</item>
+        <item>yongsan</item>
+        <item>eunpyung</item>
+        <item>jongro</item>
+        <item>junggu</item>
+        <item>jungrang</item>
+	</string-array>
+    <string-array name="seoul_list_ko">
+        <item>강남</item>
+        <item>강동구</item>
+        <item>강북구</item>
+        <item>강서구</item>
+        <item>관악구</item>
+        <item>광진구</item>
+        <item>구로구</item>
+        <item>금천구</item>
+        <item>노원구</item>
+        <item>도봉구</item>
+        <item>동대문구</item>
+        <item>동작구</item>
+        <item>마포구</item>
+        <item>서대문구</item>
+        <item>서초구</item>
+        <item>성동구</item>
+        <item>성북구</item>
+        <item>송파구</item>
+        <item>양천구</item>
+        <item>영등포구</item>
+        <item>용산구</item>
+        <item>은평구</item>
+        <item>종로구</item>
+        <item>중구</item>
+        <item>중랑구</item>
+	</string-array>
+    <!-- From: file:/C:/Users/HyunJae/Desktop/Beenzido1/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/HyunJae/Desktop/Beenzido1/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Beenzido</string>
+    <string name="hello_world">Hello world!</string>
+</resources>
