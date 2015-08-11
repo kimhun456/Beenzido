@@ -2,25 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\HyunJae\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jar="C:\Users\HyunJae\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
-        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-c6b3917098f992931e504fe4ea2864c53958a4bb.jar" />
-    </item>
-    <item
-        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
-        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-c8136b9cbca7d8af2d9e78366b99f7f333fca66d.jar" />
-    </item>
-    <item
-        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f8efd0096475e0daf054267b61544e10dc776503">
-        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-2b77e509675f1a1a1060597ee3d914f3566ba7a5.jar" />
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-3d5906fc1dd1688755bb6192279c4c6fcb5aeaf8.jar" />
     </item>
 
 </items>

@@ -38,6 +38,10 @@ public class CityPhotosActivity extends Activity implements OnClickListener{
 	static String county;
 	static String city;
 
+
+
+	/** GRID VIEW variables*/
+
     private Util utils;
     private ArrayList<String> imagePaths = new ArrayList<String>();
     private GridViewImageAdapter adapter;
@@ -50,21 +54,24 @@ public class CityPhotosActivity extends Activity implements OnClickListener{
 		setContentView(R.layout.city_photo_view);
 		
 		//getBundleValue(getIntent().getExtras());
-
 		appDB = new AppDB(getApplicationContext());
-
 		Button addBtn = (Button)findViewById(R.id.add_image);
 		addBtn.setOnClickListener(this);
+
+
+		/**
+			Grid View 처리하는 부분 시작
+		 */
 
         gridView = (GridView) findViewById(R.id.grid_view);
 
         utils = new Util(this);
 
-        // Initilizing Grid View
+        // Initilizing Grid 레이아웃 설정
         InitilizeGridLayout();
 
         // loading all image paths from SD card
-
+		// imagePahts 에 ArrayList<String>으로 AbsolutePath들을 넘겨주면 된다.
 
         imagePaths = utils.getFilePaths();
 
@@ -223,7 +230,12 @@ public class CityPhotosActivity extends Activity implements OnClickListener{
 	}
 
 
-
+	/**
+	 *
+	 * 	Grid layout setting
+	 * 	그리드 레이아웃을 사용자 폰에 맞춰서 맞춰주는 함수.
+	 *
+	 */
     private void InitilizeGridLayout() {
         Resources r = getResources();
         float padding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,

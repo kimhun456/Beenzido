@@ -292,13 +292,12 @@ public class Util {
     
 
     // Reading file paths from SDCard
+
     public ArrayList<String> getFilePaths() {
         ArrayList<String> filePaths = new ArrayList<String>();
-
         File directory = new File(
                 android.os.Environment.getExternalStorageDirectory()
                         + File.separator + Constant.PHOTO_ALBUM);
-
         Log.e("file","file");
         // check for directory
         if (directory.isDirectory()) {

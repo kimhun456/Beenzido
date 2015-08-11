@@ -4,9 +4,11 @@ package com.SSM.beenzido.adapter;
  * Created by HyunJae on 2015-08-10.
  */
 
+import java.io.File;
 import java.util.ArrayList;
 
 import com.SSM.beenzido.R;
+import com.squareup.picasso.Picasso;
 
 import android.app.Activity;
 import android.content.Context;
@@ -58,10 +60,14 @@ public class FullScreenImageAdapter extends PagerAdapter {
         imgDisplay = (ImageView) viewLayout.findViewById(R.id.imgDisplay);
         btnClose = (Button) viewLayout.findViewById(R.id.btnClose);
 
-        BitmapFactory.Options options = new BitmapFactory.Options();
-        options.inPreferredConfig = Bitmap.Config.ARGB_8888;
-        Bitmap bitmap = BitmapFactory.decodeFile(_imagePaths.get(position), options);
-        imgDisplay.setImageBitmap(bitmap);
+        Picasso.with(_activity).load(new File(_imagePaths.get(position)))
+               .error(R.drawable.noimage).into(imgDisplay);
+
+
+//        BitmapFactory.Options options = new BitmapFactory.Options();
+//        options.inPreferredConfig = Bitmap.Config.ARGB_8888;
+//        Bitmap bitmap = BitmapFactory.decodeFile(_imagePaths.get(position), options);
+//        imgDisplay.setImageBitmap(bitmap);
 
         // close button click event
         btnClose.setOnClickListener(new View.OnClickListener() {

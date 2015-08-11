@@ -18,7 +18,8 @@ int drawable jejudo 0x7f02000a
 int drawable jeollabukdo 0x7f02000b
 int drawable jeollanamdo 0x7f02000c
 int drawable korea 0x7f02000d
-int drawable seoul 0x7f02000e
+int drawable noimage 0x7f02000e
+int drawable seoul 0x7f02000f
 int id add_image 0x7f070002
 int id btnClose 0x7f070005
 int id citylist_Relativelayout 0x7f070001

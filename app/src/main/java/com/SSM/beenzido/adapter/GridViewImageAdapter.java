@@ -11,8 +11,9 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 
-
+import com.SSM.beenzido.R;
 import com.SSM.beenzido.activities.PhotoFullScreenActivity;
+import com.squareup.picasso.Picasso;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -22,7 +23,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.GridView;
 import android.widget.ImageView;
 
 
@@ -63,14 +63,9 @@ public class GridViewImageAdapter extends BaseAdapter {
             imageView = (ImageView) convertView;
         }
 
-        // get screen dimensions
-        Bitmap image = decodeFile(_filePaths.get(position), imageWidth,
-                imageWidth);
+        Picasso.with(_activity).load(new File(_filePaths.get(position))).resize(imageWidth,imageWidth)
+                .centerCrop().error(R.drawable.noimage).into(imageView);
 
-        imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(imageWidth,
-                imageWidth));
-        imageView.setImageBitmap(image);
 
         // image view click listener
         imageView.setOnClickListener(new OnImageClickListener(position));
@@ -100,6 +95,10 @@ public class GridViewImageAdapter extends BaseAdapter {
 
     /*
      * Resizing image size
+     *
+     * 비동기적으로 처리해야하는 부분인듯 하다...
+     *
+     *
      */
     public static Bitmap decodeFile(String filePath, int WIDTH, int HIGHT) {
         try {
@@ -119,7 +118,9 @@ public class GridViewImageAdapter extends BaseAdapter {
 
             BitmapFactory.Options o2 = new BitmapFactory.Options();
             o2.inSampleSize = scale;
+
             return BitmapFactory.decodeStream(new FileInputStream(f), null, o2);
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

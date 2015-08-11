@@ -9,8 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67da442f-8637-4b44-9275-9120dc90366d" name="Default" comment="Picasso Library ADD">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/noimage.png" />
+    <list default="true" id="67da442f-8637-4b44-9275-9120dc90366d" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/picasso_2_5_2.xml" />
       <change type="DELETED" beforePath="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\src\main\resources\._.DS_Store" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/SSM/beenzido/activities/CityListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/SSM/beenzido/activities/CityListActivity.class" />
@@ -77,11 +76,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.42324093">
       <split-first>
         <leaf>
-          <file leaf-file-name="CityPhotosActivity.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="CityPhotosActivity.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/activities/CityPhotosActivity.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="209" column="4" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
+                <state vertical-scroll-proportion="0.5026178">
+                  <caret line="236" column="6" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
                   <folding>
                     <element signature="e#1153#1161#0" expanded="true" />
                     <element signature="method#getImageAction#0;class#CityPhotosActivity#0" expanded="false" />
@@ -92,39 +91,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="FullScreenImageAdapter.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/adapter/FullScreenImageAdapter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6313291">
-                  <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PhotoFullScreenActivity.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/activities/PhotoFullScreenActivity.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="33" column="36" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="36" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="layout_fullscreen_image.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_fullscreen_image.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-6.3333335">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-              <provider editor-type-id="android-designer">
-                <state />
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -132,7 +98,7 @@
           <file leaf-file-name="GridViewImageAdapter.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/adapter/GridViewImageAdapter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.81170887">
+                <state vertical-scroll-proportion="0.5371728">
                   <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="66" selection-end-column="72" />
                   <folding />
                 </state>
@@ -1958,12 +1924,18 @@
       <option name="project" value="LOCAL" />
       <updated>1439284383342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Picasso Library ADD">
+      <created>1439290178086</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1439290178086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-312" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1973,7 +1945,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32825205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825205" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2141,24 +2113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/noimage.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/activities/CityPhotosActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="209" column="4" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
-          <folding>
-            <element signature="e#1153#1161#0" expanded="true" />
-            <element signature="method#getImageAction#0;class#CityPhotosActivity#0" expanded="false" />
-            <element signature="method#getGPSInfoFromImage#0;class#CityPhotosActivity#0" expanded="false" />
-            <element signature="method#saveSelectedPhoto#0;class#CityPhotosActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6613924">
@@ -2186,27 +2140,45 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/activities/PhotoFullScreenActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/adapter/GridViewImageAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.5371728">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="66" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/adapter/GridViewImageAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/noimage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/activities/PhotoFullScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81170887">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="66" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.5172775">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/adapter/FullScreenImageAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6313291">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.7759162">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/SSM/beenzido/activities/CityPhotosActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5026178">
+          <caret line="236" column="6" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
+          <folding>
+            <element signature="e#1153#1161#0" expanded="true" />
+            <element signature="method#getImageAction#0;class#CityPhotosActivity#0" expanded="false" />
+            <element signature="method#getGPSInfoFromImage#0;class#CityPhotosActivity#0" expanded="false" />
+            <element signature="method#saveSelectedPhoto#0;class#CityPhotosActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

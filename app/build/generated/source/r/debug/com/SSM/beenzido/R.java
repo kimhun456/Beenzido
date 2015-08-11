@@ -35,7 +35,8 @@ public final class R {
         public static final int jeollabukdo=0x7f02000b;
         public static final int jeollanamdo=0x7f02000c;
         public static final int korea=0x7f02000d;
-        public static final int seoul=0x7f02000e;
+        public static final int noimage=0x7f02000e;
+        public static final int seoul=0x7f02000f;
     }
     public static final class id {
         public static final int add_image=0x7f070002;
