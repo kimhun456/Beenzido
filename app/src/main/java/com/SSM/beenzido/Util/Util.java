@@ -7,15 +7,12 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.Locale;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.Context;
 import android.content.CursorLoader;
 import android.database.Cursor;
@@ -28,7 +25,6 @@ import android.provider.MediaStore;
 import android.provider.OpenableColumns;
 import android.util.Log;
 import android.view.Display;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
@@ -295,7 +291,7 @@ public class Util {
      * @Date 2015.08.10 Add by Hyun_Jae
      * @brief Constant.PHOTO_ALBUM 에 있는 사진파일의 경로를 가지고 온다.
      */
-    public ArrayList<String> getFilePaths() {
+    public static  ArrayList<String> getFilePaths(Context context) {
         ArrayList<String> filePaths = new ArrayList<String>();
         File directory = new File(
                 android.os.Environment.getExternalStorageDirectory()
@@ -317,7 +313,7 @@ public class Util {
                     String filePath = listFiles[i].getAbsolutePath();
 
                     // check for supported file extension
-                    if (IsSupportedFile(filePath)) {
+                    if (IsSupportedFile(filePath,context)) {
                         // Add image path to array list
                         filePaths.add(filePath);
                     }
@@ -325,14 +321,14 @@ public class Util {
             } else {
                 // image directory is empty
                 Toast.makeText(
-                        _context,
+                        context,
                         Constant.PHOTO_ALBUM
                                 + " is empty. Please load some images in it !",
                         Toast.LENGTH_LONG).show();
             }
 
         } else {
-            AlertDialog.Builder alert = new AlertDialog.Builder(_context);
+            AlertDialog.Builder alert = new AlertDialog.Builder(context);
             alert.setTitle("Error!");
             alert.setMessage(Constant.PHOTO_ALBUM
                     + " directory path is not valid! Please set the image directory name AppConstant.java class");
@@ -344,7 +340,7 @@ public class Util {
     }
 
     // Check supported file extensions
-    private boolean IsSupportedFile(String filePath) {
+    private static boolean IsSupportedFile(String filePath,Context context) {
         String ext = filePath.substring((filePath.lastIndexOf(".") + 1),
                 filePath.length());
 
@@ -359,12 +355,10 @@ public class Util {
     /*
      * getting screen width
      */
-
-
     @SuppressLint("NewApi")
-	public int getScreenWidth() {
+	public static int getScreenWidth(Context context) {
         int columnWidth;
-        WindowManager wm = (WindowManager) _context
+        WindowManager wm = (WindowManager) context
                 .getSystemService(Context.WINDOW_SERVICE);
         Display display = wm.getDefaultDisplay();
 
@@ -378,4 +372,30 @@ public class Util {
         columnWidth = point.x;
         return columnWidth;
     }
+
+
+    public static double get_current_latitude(Context context){
+
+        GPStracker gps = new GPStracker(context);
+        gps.getLocation();
+        double latitude =gps.getLatitude();
+
+
+        Util.Log("latitude : "  +  latitude);
+        //Util.showToast(getApplicationContext(),"latitude : "  +  latitude + "longitude : " + longitude);
+        return latitude;
+    }
+
+    public static double get_current_longitude(Context context){
+
+        GPStracker gps = new GPStracker(context);
+        gps.getLocation();
+        double longitude = gps.getLongitude();
+        Util.Log("longitude : " + longitude);
+
+       // Util.showToast(getApplicationContext(),"latitude : "  +  latitude + "longitude : " + longitude);
+        return longitude;
+    }
+
+
 }

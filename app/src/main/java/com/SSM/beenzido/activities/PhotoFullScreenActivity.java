@@ -29,7 +29,7 @@ public class PhotoFullScreenActivity extends Activity{
         int position = i.getIntExtra("position", 0);
 
         adapter = new FullScreenImageAdapter(PhotoFullScreenActivity.this,
-                utils.getFilePaths());
+                utils.getFilePaths(PhotoFullScreenActivity.this));
 
         viewPager.setAdapter(adapter);
 

@@ -2015,10 +2015,11 @@ containing a value of this type.
         public static final int mr_ic_settings_dark=0x7f02008b;
         public static final int mr_ic_settings_light=0x7f02008c;
         public static final int noimage=0x7f02008d;
-        public static final int notification_template_icon_bg=0x7f020091;
+        public static final int notification_template_icon_bg=0x7f020092;
         public static final int powered_by_google_dark=0x7f02008e;
         public static final int powered_by_google_light=0x7f02008f;
-        public static final int seoul=0x7f020090;
+        public static final int redflag=0x7f020090;
+        public static final int seoul=0x7f020091;
     }
     public static final class id {
         public static final int action0=0x7f0d007b;
@@ -2036,7 +2037,6 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0054;
         public static final int action_mode_bar_stub=0x7f0d0053;
         public static final int action_mode_close_button=0x7f0d003c;
-        public static final int action_settings=0x7f0d0088;
         public static final int activity_chooser_view_content=0x7f0d003d;
         public static final int add_image=0x7f0d0069;
         public static final int adjust_height=0x7f0d0018;
@@ -2215,9 +2215,6 @@ containing a value of this type.
         public static final int select_dialog_multichoice_material=0x7f03002c;
         public static final int select_dialog_singlechoice_material=0x7f03002d;
         public static final int support_simple_spinner_dropdown_item=0x7f03002e;
-    }
-    public static final class menu {
-        public static final int menu_stamp=0x7f0e0000;
     }
     public static final class raw {
         public static final int gtm_analytics=0x7f050000;

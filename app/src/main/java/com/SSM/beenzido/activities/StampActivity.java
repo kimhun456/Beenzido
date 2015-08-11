@@ -12,7 +12,6 @@ import com.SSM.beenzido.Util.Util;
 
 public class StampActivity extends Activity {
 
-    private GPStracker gps;
     private Button get_location_btn;
     private double latitude;
     private double longitude;
@@ -37,10 +36,8 @@ public class StampActivity extends Activity {
 
     private void get_location(){
 
-        gps = new GPStracker(getApplicationContext());
-        gps.getLocation();
-        latitude =gps.getLatitude();
-        longitude = gps.getLongitude();
+        latitude =Util.get_current_latitude(StampActivity.this);
+        longitude = Util.get_current_longitude(StampActivity.this);
         Util.Log("latitude : "  +  latitude + "longitude : " + longitude);
         Util.showToast(getApplicationContext(),"latitude : "  +  latitude + "longitude : " + longitude);
 

@@ -569,10 +569,11 @@ int drawable mr_ic_play_light 0x7f02008a
 int drawable mr_ic_settings_dark 0x7f02008b
 int drawable mr_ic_settings_light 0x7f02008c
 int drawable noimage 0x7f02008d
-int drawable notification_template_icon_bg 0x7f020091
+int drawable notification_template_icon_bg 0x7f020092
 int drawable powered_by_google_dark 0x7f02008e
 int drawable powered_by_google_light 0x7f02008f
-int drawable seoul 0x7f020090
+int drawable redflag 0x7f020090
+int drawable seoul 0x7f020091
 int id action0 0x7f0d007b
 int id action_bar 0x7f0d0057
 int id action_bar_activity_content 0x7f0d0000
@@ -588,7 +589,6 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d0054
 int id action_mode_bar_stub 0x7f0d0053
 int id action_mode_close_button 0x7f0d003c
-int id action_settings 0x7f0d0088
 int id activity_chooser_view_content 0x7f0d003d
 int id add_image 0x7f0d0069
 int id adjust_height 0x7f0d0018
@@ -763,7 +763,6 @@ int layout select_dialog_item_material 0x7f03002b
 int layout select_dialog_multichoice_material 0x7f03002c
 int layout select_dialog_singlechoice_material 0x7f03002d
 int layout support_simple_spinner_dropdown_item 0x7f03002e
-int menu menu_stamp 0x7f0e0000
 int raw gtm_analytics 0x7f050000
 int string abc_action_bar_home_description 0x7f060000
 int string abc_action_bar_home_description_format 0x7f060038

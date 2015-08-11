@@ -73,7 +73,7 @@ public class CityPhotosActivity extends Activity implements OnClickListener{
         // loading all image paths from SD card
 		// imagePahts 에 ArrayList<String>으로 AbsolutePath들을 넘겨주면 된다.
 
-        imagePaths = utils.getFilePaths();
+        imagePaths = utils.getFilePaths(CityPhotosActivity.this);
 
         // Gridview adapter
         adapter = new GridViewImageAdapter(this, imagePaths,
@@ -241,7 +241,7 @@ public class CityPhotosActivity extends Activity implements OnClickListener{
         float padding = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,
                 Constant.GRID_PADDING, r.getDisplayMetrics());
 
-        columnWidth = (int) ((utils.getScreenWidth() - ((Constant.NUM_OF_COLUMNS + 1) * padding)) / Constant.NUM_OF_COLUMNS);
+        columnWidth = (int) ((utils.getScreenWidth(CityPhotosActivity.this) - ((Constant.NUM_OF_COLUMNS + 1) * padding)) / Constant.NUM_OF_COLUMNS);
 
         gridView.setNumColumns(Constant.NUM_OF_COLUMNS);
         gridView.setColumnWidth(columnWidth);
