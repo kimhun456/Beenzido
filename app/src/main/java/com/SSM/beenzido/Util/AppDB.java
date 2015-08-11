@@ -1,5 +1,6 @@
 package com.SSM.beenzido.Util;
 
+import java.io.File;
 import java.util.ArrayList;
 
 
@@ -7,6 +8,8 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Environment;
+import android.util.Log;
 
 public class AppDB {
 
@@ -40,8 +43,8 @@ public class AppDB {
     {
         try
         {
-            db.execSQL("CREATE TABLE IF NOT EXISTS " + TABLE_NAME_CITY_INFO + 
-            		
+            db.execSQL("CREATE TABLE IF NOT EXISTS " + TABLE_NAME_CITY_INFO +
+
                     " ( " + COL_INDEX + " TEXT" +
                     ", " + COL_COUNTY + " TEXT" +
                     ", " + COL_CITY + " TEXT" +
@@ -180,5 +183,27 @@ public class AppDB {
 			this.path = path;
 		}
     }
-    
+    public void createFolder(){
+        try{
+            //check sdcard mount state
+            String str = Environment.getExternalStorageState();
+            if ( str.equals(Environment.MEDIA_MOUNTED)) {
+                Log.d("path", "sdcard mounted");
+                String mTargetDirPath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM).getAbsolutePath() + "/Beenzido";
+
+                File file = new File(mTargetDirPath);
+                if(!file.exists()){
+                    file.mkdirs();
+                    Log.e("path", mTargetDirPath + " folder created");
+                }else{
+                    Log.d("path", mTargetDirPath + " is exist");
+                }
+            }else{
+                Log.d("path", "sdcard unmount, use default image.");
+            }
+        }catch(Exception e){
+            Log.d("path", "fail");
+        }
+    }
+
 }
