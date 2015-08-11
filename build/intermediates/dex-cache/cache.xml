@@ -2,11 +2,165 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\HyunJae\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-3d5906fc1dd1688755bb6192279c4c6fcb5aeaf8.jar" />
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-10d15e1230326018bf1d17630e5370a7295465ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-d37b34850d3b399633aefb5a3c65039f884474cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-3203b54ec3eda4371e99a03d6e8b655007cc6207.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-e3e1f402d3b5e20255b3c6abbc5ba4beef44573e.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-a5abe12988ff18b530695eca58be638775a1a461.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-153b503978f2861c7f89aec4d136e06b37ba7b9e.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-90a436863ba36083d8492ab37f7a41ec7e1c2ed8.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-eb7f42e9a0967f2af8ca13e9fe8763f97623dde2.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-e52d35974dc3f9fde56268f68cea61e1b7c1ece5.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-64e3c7b685a559c911d97a7a1f2059344b43059d.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-efade2479f1c4960eb7fa872902f122d43012cf0.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-a067bd3906065b541d4aaf407ecc507311aaf50a.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-018b2eed5bdced799322b6866285a9ced4941e22.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-3b506818588792b53a78447cba34093812661f69.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-57033691e914112dc9721d8773f4b0eafb9f0fae.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-4e3874c053ac9ad7039665c5bf40500dd82c515a.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-f9b23d4aaeaa9b1715ea39aa4981d50988933b36.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-685f8f071d4aba75d83f58ad5df06593ac27a296.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-5862c571e1410b3efaad0d94a2610aebf798cbaa.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-b0e7677a6d1d052f58ceb389da8aef60e7e4e0b9.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-6ee92cc56e9438667d9ece69919d8a3acb875dea.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-95f045c4023ac5d8103d75e4133e7d330f6799e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\HyunJae\Desktop\Beenzido_hyun\app\build\intermediates\pre-dexed\debug\classes-545010aa93ab8dec4f4a02676e7702a04dd5cefa.jar" />
     </item>
 
 </items>

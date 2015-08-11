@@ -35,7 +35,7 @@ public class IntroActivity extends Activity{
 		mHandler.postDelayed(new Runnable() {
 			@Override
 			public void run() {
-				Intent intent = new Intent(getApplicationContext(), CityPhotosActivity.class);
+				Intent intent = new Intent(getApplicationContext(), StampActivity.class);
 				startActivity(intent);
 				finish();
 			}
