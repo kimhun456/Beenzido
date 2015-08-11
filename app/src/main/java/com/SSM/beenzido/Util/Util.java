@@ -291,8 +291,10 @@ public class Util {
 	}
     
 
-    // Reading file paths from SDCard
-
+    /**
+     * @Date 2015.08.10 Add by Hyun_Jae
+     * @brief Constant.PHOTO_ALBUM 에 있는 사진파일의 경로를 가지고 온다.
+     */
     public ArrayList<String> getFilePaths() {
         ArrayList<String> filePaths = new ArrayList<String>();
         File directory = new File(
