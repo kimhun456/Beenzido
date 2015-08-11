@@ -16,7 +16,7 @@ import android.os.Handler;
 public class IntroActivity extends Activity{
 
 	/**화면 전환 시간(Default 3초)*/
-	private final static int TRANS_TIMMER = 1 * 1000;
+	private final static int TRANS_TIMMER = 3 * 1000;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
