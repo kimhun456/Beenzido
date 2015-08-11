@@ -30,13 +30,10 @@ public class StampActivity extends Activity {
             public void onClick(View v) {
                 get_location();
 
-
-
             }
         });
 
     }
-
 
     private void get_location(){
 

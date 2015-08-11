@@ -1,3 +1,5 @@
 # Beenzido
 
-BEENNNZIDO
+BeenZido
+
+시발 지도!
