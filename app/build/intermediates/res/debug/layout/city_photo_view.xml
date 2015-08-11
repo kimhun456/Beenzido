@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<Button
+	    android:id="@+id/add_image"
+	    android:layout_width="200dip"
+	    android:layout_height="50dip"
+	    android:text="+Add Image"/>
+
+	<GridView
+		android:id="@+id/grid_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:numColumns="auto_fit"
+		android:gravity="center"
+		android:stretchMode="columnWidth"
+		android:background="#000000">
+	</GridView>
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/HyunJae/Desktop/Beenzido_hyun/app/src/main/res/layout/city_photo_view.xml -->
